@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="80dp"
+    android:orientation="vertical"
+    android:paddingBottom="25dp"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="15dp"
+        android:text="user"
+        android:textAlignment="textEnd"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/bg_bubble_red"
+        android:paddingRight="20dp"
+        android:text="Hello world,friend!"
+        android:textAlignment="textEnd"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/receivetime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+</LinearLayout>

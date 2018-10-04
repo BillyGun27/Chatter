@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Chatter" parent="AppTheme">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorForeground">@color/foreground_material_light</item>
+        <item name="android:textColorPrimary">@color/darkYellow</item>
+    </style>
+</resources>
